@@ -542,3 +542,55 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+/* Subsription */
+
+.subscription {
+  margin-top: 90px;
+}
+
+.subscription .body {
+  position: relative;
+  background-color: #063183;
+  align-items: center;
+  border-radius: 20px;
+  height: 370px;
+  display: flex;
+}
+
+.subscription .info {
+  padding: 0 80px;
+  width: 670px;
+}
+
+.subscription .sub-title {
+  color: #FFF;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5
+}
+
+.subscription .desc {
+  margin-top: 15px;
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+}
+
+.subscription .btn {
+  margin-top: 34px;
+  width: 151px;
+  background-color: #fff;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #002366;
+}
+
+.subscription img {
+  position: absolute;
+  bottom: 0;
+  right: 221px;
+}
