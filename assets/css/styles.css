@@ -96,6 +96,10 @@ body {
   padding: 8px 14px;
 }
 
+.navbar ul a:hover {
+  text-decoration: underline;
+}
+
 .navbar .logo {
   margin-right: 50px;
 }
@@ -185,6 +189,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.client .images a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 42px;
+}
+
+.client .images a:hover {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
 }
 
 /* ======== Guides ========== */
@@ -635,6 +652,10 @@ body {
 
 .footer .social-media {
   margin-top: 40px;
+}
+
+.footer .social-link {
+  margin-right: 16px;
 }
 
 .footer .row-bottom {
