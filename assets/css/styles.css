@@ -64,8 +64,11 @@ body {
   top: -38px
 }
 
-.wrapper-header {
+.wrapper-hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #e6f0ff;
   height: calc(100vh - 90px);
 }
@@ -117,15 +120,12 @@ body {
   border-radius: 8px;
 }
 
-.hero {
-  padding-top: 130px;
-}
 
-.hero .info {
+.wrapper-hero .info {
   width: 51%;
 }
 
-.hero .subtitle {
+.wrapper-hero .subtitle {
   color: #687690;
   font-size: 1.8rem;
   font-weight: 500;
@@ -133,7 +133,7 @@ body {
   letter-spacing: 0.01em;
 }
 
-.hero .title {
+.wrapper-hero .title {
   padding-top: 8px;
   color: #000336;
   font-size: 6rem;
@@ -142,7 +142,7 @@ body {
   line-height: 1.18;
 }
 
-.hero .decs {
+.wrapper-hero .decs {
   padding-top: 30px;
   color: #5a6473;
   font-size: 1.8rem;
@@ -151,12 +151,12 @@ body {
   line-height: 1.77;
 }
 
-.hero .hero-cta {
+.wrapper-hero .hero-cta {
   margin-top: 40px;
   min-width: 170px;
 }
 
-.hero .hero-img {
+.wrapper-hero .hero-img {
   position: absolute;
   right: calc((100vw - 1100px) / 2 - 100px);
   bottom: 0px;
