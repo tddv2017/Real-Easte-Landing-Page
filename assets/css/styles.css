@@ -40,18 +40,10 @@ a {
   text-decoration: none;
 }
 
-/* .avatar-empty {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background-color: var(--color-avatar);
-  font-size: 7px;
-  color: #ffffff;
-  margin-left: -3px;
-} */
+html,
+body {
+  scroll-behavior: smooth;
+}
 
 html {
   font-size: 62.5%;
